@@ -1,9 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Manrope', sans-serif;
+    
 }
-h1,h2,h3,h4,h5,h6 {
+header,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
+    font-family: 'Baloo Paaji 2', cursive;
 }
 body > * {
     box-sizing: border-box;
@@ -40,3 +43,8 @@ footer a {
         margin: 0 10px;
     }
 }
+@font-face {
+    font-family: Manrope;
+    src:
+    url(Manrope-ExtraLight.ttf);
+    }
